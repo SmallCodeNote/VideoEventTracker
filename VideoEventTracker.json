@@ -1,0 +1,65 @@
+{
+    "parent_folder": "R:/",
+    "log_path": "R:/ocr_log.txt",
+    "rois": [
+        {
+            "enabled": true,
+            "x": 548,
+            "y": 473,
+            "w": 20,
+            "h": 20,
+            "threshold": 10,
+            "cooldown_ms": 3000
+        },
+        {
+            "enabled": true,
+            "x": 1153,
+            "y": 114,
+            "w": 25,
+            "h": 25,
+            "threshold": 100,
+            "cooldown_ms": 3000
+        },
+        {
+            "enabled": false,
+            "x": 0,
+            "y": 10,
+            "w": 30,
+            "h": 30,
+            "threshold": 10,
+            "cooldown_ms": 3000
+        },
+        {
+            "enabled": false,
+            "x": 0,
+            "y": 15,
+            "w": 35,
+            "h": 35,
+            "threshold": 10,
+            "cooldown_ms": 3000
+        },
+        {
+            "enabled": false,
+            "x": 0,
+            "y": 20,
+            "w": 40,
+            "h": 40,
+            "threshold": 10,
+            "cooldown_ms": 3000
+        }
+    ],
+    "ocr_settings": {
+        "x": 19,
+        "y": 662,
+        "w": 380,
+        "h": 50,
+        "padding": 50,
+        "grayscale": true,
+        "threshold": 127,
+        "tesseract_path": "C:/Program Files/Tesseract-OCR/tesseract.exe"
+    },
+    "detection_settings": {
+        "threshold": 500,
+        "cooldown_ms": 3000
+    }
+}
